@@ -14,10 +14,10 @@ let sconto = 0;
 let scontoApplicato = 0;
 
 // Dati richiesti all'utente
-const trattaKM = prompt ("Quanti Km vuoi percorrere?");
+const trattaKM = parseInt(prompt ("Quanti Km vuoi percorrere?"));
 console.log(trattaKM);
 
-const etaCliente = prompt ("Quanti anni hai?");
+const etaCliente = parseInt(prompt ("Quanti anni hai?"));
 console.log(etaCliente);
 
 // Calcolo del prezzo del biglietto
